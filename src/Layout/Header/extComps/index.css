@@ -1,0 +1,64 @@
+.homeLayout {
+  background-color:#205fe1;
+  background-image:url('../../../assets/bg_home.jpg');
+  opacity: 0.8;
+  background-blend-mode: overlay;
+  background-size:cover;  
+  background-repeat: no-repeat;
+  background-position: center;
+  padding-top: 5px;
+  padding-bottom:2px;
+  
+}
+.signUpLayout{
+  background-color:#205fe1;
+  background-image:url('../../../assets/bg_signup.jpg');
+  opacity: 0.8;
+  background-blend-mode: overlay;
+  background-size:cover;  
+  background-repeat: no-repeat;
+  background-position: center;
+  padding-top: 5px;
+  padding-bottom: 1px;
+}
+.navbar-brand>img {
+  padding: 15px;
+}
+.btn-outline-secondary {
+  border-color: white;
+  color: white  
+}
+li {
+  position: relative;
+}
+li > a:hover {
+  color: #000;
+}
+li > a:before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #fafafa;
+  visibility: hidden;
+  -webkit-transform: scaleX(0);
+  transform: scaleX(0);
+  -webkit-transition: all 0.3s ease-in-out 0s;
+  transition: all 0.3s ease-in-out 0s;
+}
+li > a:hover:before {
+  visibility: visible;
+  -webkit-transform: scaleX(1);
+  transform: scaleX(1);
+}
+.btn-outline-secondary:hover {
+  background-color: #fafafa;
+  color:blue ;
+  border-color: white;
+}
+
+a.active > button {
+  border-color: white;
+}
